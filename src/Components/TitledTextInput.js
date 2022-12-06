@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const Input = styled.input`
-    outline: none;
+    width: 447px;
     border: 1px solid #E2E8F0;
     border-radius: 24px;
     background: #F8FAFC;
-    color: #94A3B8;
+    color: #0F172A;
     &:hover {
         background: #F8FAFC;
         border: 1px solid #E2E8F0;
@@ -20,7 +20,7 @@ function TitledTextInput({title, def}) {
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
-            <Input className='p-2'defaultValue={def} ></Input>
+            <Input className='px-3 py-2'defaultValue={def} ></Input>
         </div>
     );
 }
